@@ -30,6 +30,7 @@ export default function Header({ className }) {
         <button className="donate__btn" variant="secondary" aria-label="Get Started" >
           Get Started
         </button>
+        <MobileDrawer/>
         </Container>
       </header>
   );
