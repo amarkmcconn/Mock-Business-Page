@@ -8,22 +8,22 @@ import { FaFacebookF, FaTwitter, FaGithubAlt, FaDribbble } from 'react-icons/fa'
 import menuItems from './header.data';
 
 const social = [
+  // {
+  //   path: '/',
+  //   icon: <FaFacebookF />,
+  // },
   {
-    path: '/',
-    icon: <FaFacebookF />,
-  },
-  {
-    path: '/',
+    path: 'https://twitter.com/MarksProgram',
     icon: <FaTwitter />,
   },
   {
-    path: '/',
+    path: 'https://github.com/amarkmcconn',
     icon: <FaGithubAlt />,
   },
-  {
-    path: '/',
-    icon: <FaDribbble />,
-  },
+  // {
+  //   path: '/',
+  //   icon: <FaDribbble />,
+  // },
 ];
 
 export default function MobileDrawer() {
