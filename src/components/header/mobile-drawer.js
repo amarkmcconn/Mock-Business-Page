@@ -8,22 +8,24 @@ import { FaFacebookF, FaTwitter, FaGithubAlt, FaDribbble } from 'react-icons/fa'
 import menuItems from './header.data';
 
 const social = [
-  // {
-  //   path: '/',
-  //   icon: <FaFacebookF />,
-  // },
   {
-    path: 'https://twitter.com/MarksProgram',
+    path: '/',
+    icon: <FaFacebookF />,
+  },
+  {
+    path: '/',
+    // path: 'https://twitter.com/MarksProgram',
     icon: <FaTwitter />,
   },
   {
-    path: 'https://github.com/amarkmcconn',
+    path: '/',
+    // path: 'https://github.com/amarkmcconn',
     icon: <FaGithubAlt />,
   },
-  // {
-  //   path: '/',
-  //   icon: <FaDribbble />,
-  // },
+  {
+    path: '/',
+    icon: <FaDribbble />,
+  },
 ];
 
 export default function MobileDrawer() {
@@ -63,7 +65,7 @@ export default function MobileDrawer() {
           <Box sx={styles.social}>
             {social.map((socialItem, i) => (
               <Box as="span" key={i} sx={styles.social.icon}>
-                <Link to={socialItem.path}>{socialItem.icon}</Link>          
+                <a href={socialItem.path}>{socialItem.icon}</a>          
               </Box>
             ))}
           </Box>

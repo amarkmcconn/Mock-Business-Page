@@ -2,6 +2,8 @@
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
 import BannerImg from 'assets/banner-thumb.png';
+// import BannerImg from 'assets/banner-thumb1.png';
+// Resume Image 
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -11,10 +13,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Quality Digital Products to Explore
+            Company Name
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Check out our website to find great software products and deals!
+          Company Motto 
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>
