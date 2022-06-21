@@ -18,7 +18,6 @@ export default function TextFeature({
             {title}
           </Heading>
       </Box>
-
       {description && (
           <Text as="p" className="description" sx={styles.description}>
               {description}

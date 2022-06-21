@@ -14,7 +14,6 @@ export default function FeatureCardColumn({
         <Heading sx={styles.wrapper.title}>{title}</Heading>
         <Text sx={styles.wrapper.subTitle}>{text}</Text>
       </Box>
-
     </Box>
   );
 }
