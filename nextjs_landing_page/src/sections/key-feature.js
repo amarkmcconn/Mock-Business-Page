@@ -39,7 +39,7 @@ const data = [
     altText: 'Customer Support',
     title: 'Customer Support',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'It’s ultimately about making sure customers are successful in solving whatever issues they came to your business to help solve.',
   },
 ];
 

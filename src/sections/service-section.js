@@ -8,6 +8,7 @@ import { IoIosPlay } from 'react-icons/io';
 
 import ServiceThumb from 'assets/service-thumb.png';
 import shapePattern from 'assets/shape-pattern1.png';
+import Suc from 'assets/suc.png';
 
 import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
@@ -15,7 +16,7 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  title: 'Unique customized approach to each customers needs',
   features: [
     {
       id: 1,
@@ -48,7 +49,7 @@ export default function ServiceSection() {
     <section sx={{ variant: 'section.services'}}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="ThumbNail"/>
+          <Image src={Suc} alt="ThumbNail"/>
           <Button
             sx={styles.videoBtn}
             onClick={handleClick}
@@ -82,7 +83,7 @@ export default function ServiceSection() {
       <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
-        videoId="iGBERMGMIvc"
+        videoId="VXqLWQGUC54"
         onClose={() => setVideoOpen(false)}
       />
     </section>

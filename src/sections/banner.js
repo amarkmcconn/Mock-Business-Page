@@ -1,11 +1,12 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
+import Blob from 'assets/blob.svg'
 import BannerImg from 'assets/banner-thumb.png';
-// import BannerImg from 'assets/banner-thumb1.png';
-// Resume Image 
 import ShapeLeft from 'assets/shape-left.png';
-import ShapeRight from 'assets/shape-right.png';
+// import ShapeRight from 'assets/shape-right.png';
+import ShapeLeft1 from 'assets/shape-left1.png'
+import Blob1 from 'assets/blob1.svg'
 
 export default function Banner() {
   return (
@@ -13,12 +14,12 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Company Name
+          <img src="https://fontmeme.com/permalink/220624/1ad80d6e111a5dcb73d8c20dbc6cfa2b.png" alt="golden-sentry-font" border="0"/>
           </Heading>
           <Text as="p" variant="heroSecondary">
-          Company Motto 
+          We focus on modern house plants and specialize in succulents and cacti. We strive to create a unique environment for our clients. We are driven to bring the best selection of plants and make our customers happy! 
           </Text>
-          <Button variant="primary">Explore</Button>
+          {/* <Button variant="primary">Explore</Button> */}
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt='banner' />
@@ -37,28 +38,28 @@ const styles = {
     '&::before': {
       position: 'absolute',
       content: '""',
-      bottom: 6,
+      bottom: -50,
       left: 0,
       height: '100%',
       width: '100%',
       zIndex: -1,
-      backgroundImage: `url(${ShapeLeft})`,
+      backgroundImage: `url(${Blob})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom left',
-      backgroundSize: '36%',
+      backgroundSize: '65%',
     },
     '&::after': {
       position: 'absolute',
       content: '""',
-      bottom: '40px',
+      bottom: -100,
       right: 0,
       height: '100%',
-      width: '100%',
+      width: '110%',
       zIndex: -1,
-      backgroundImage: `url(${ShapeRight})`,
+      backgroundImage: `url(${Blob1})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom right',
-      backgroundSize: '32%',
+      backgroundSize: '48%',
     },
     container: {
       minHeight: 'inherit',

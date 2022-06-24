@@ -39,7 +39,7 @@ const data = [
     altText: 'Customer Support',
     title: 'Customer Support',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'It’s ultimately about making sure customers are successful in solving whatever issues they came to your business to help solve..',
   },
 ];
 
