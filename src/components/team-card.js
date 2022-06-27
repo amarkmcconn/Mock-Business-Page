@@ -36,10 +36,10 @@ const styles = {
     '&:hover': {
       boxShadow: ['none', null, '0 4px 10px rgba(39, 83, 123, 0.12)'],
       '.info__name': {
-        color: 'primary',
+        color: 'secondary',
       },
       '.info__designation': {
-        color: 'primary',
+        color: 'secondary',
       },
       '.social__share': {
         opacity: 1,
@@ -56,7 +56,7 @@ const styles = {
     height: ['70px', '80px', '100px', null, null, '130px'],
     flexShrink: 0,
     border: '2px solid',
-    borderColor: 'primary',
+    borderColor: 'secondary',
     borderRadius: '50%',
   },
   infoWrapper: {

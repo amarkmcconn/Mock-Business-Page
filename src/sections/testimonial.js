@@ -13,42 +13,42 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'helped me create the modern look I was going for!',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Get working with this amazing team & I cannot wait to work with them on my future projects.',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Jenny Hill',
+    designation: '@jenny.hil',
     review: 4,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Great customer experience',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'They really went the extra mile to help my take care of my rentals for my high end clients! .',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Denny Dimes',
+    designation: '@dennyDimesNYG',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Went above and beyond to meet my needs',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'They definitely have the best industry experts and design team to help my idea come to life.',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Christian Jackson',
+    designation: 'CJack808',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
+    title: 'Great solutions and my house looks amazing',
     description:
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
     avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Jason Street',
+    designation: '@TexasForever',
     review: 4,
   },
 ];
@@ -104,8 +104,8 @@ export default function TestimonialCard() {
    <section id="testimonial" sx={{ variant: 'section.testimonial'}}>
       <Container css= {{ textAlign: 'center'}}>
         <SectionHeader
-          slogan="Testimonial"
-          title="Meet Client Satisfaction"
+          slogan="Testimonials"
+          title="Our Client Satisfaction"
         />
       </Container>
       <Box sx={styles.carouselWrapper}>

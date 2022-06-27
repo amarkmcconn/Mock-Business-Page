@@ -14,14 +14,14 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Box sx={styles.banner.imageBox} >
+          {/* <Box sx={styles.banner.imageBox} >
             <Image src={HeadingImage1} alt='heading' />
           </Box>
           <Box sx={styles.banner.imageBox} >
             <Image src={HeadingImage2} alt='heading' />
-          </Box>
+          </Box> */}
           <Text as="p" variant="heroSecondary">
-          We focus on modern house plants and specialize in succulents and cacti. We strive to create a unique environment for our clients. We are driven to bring the best selection of plants and make our customers happy! 
+          At Desert Green, We focus on modern house plants and specialize in succulents and cacti. We strive to create a unique environment for our clients. We are driven to bring the best selection of plants and make our customers happy! 
           </Text>
         </Box>
         <Box sx={styles.banner.imageBox}>

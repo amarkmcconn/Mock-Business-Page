@@ -44,7 +44,7 @@ const data = [
     id: 2,
     imgSrc: Member2,
     altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
+    title: 'Felicity Nunez',
     designation: 'Founder',
     socialProfile: [
       {
@@ -72,7 +72,7 @@ const data = [
     imgSrc: Member3,
     altText: 'Aaron Nunez',
     title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    designation: 'Plant Expert',
     socialProfile: [
       {
         id: 1,
@@ -98,8 +98,8 @@ const data = [
     id: 4,
     imgSrc: Member4,
     altText: 'Lina Jutila',
-    title: 'Lina Jutila',
-    designation: 'Web Developer',
+    title: 'Larry Jutila',
+    designation: 'Plant Expert',
     socialProfile: [
       {
         id: 1,
@@ -125,8 +125,8 @@ const data = [
     id: 5,
     imgSrc: Member5,
     altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    title: 'Jake Butts',
+    designation: 'Plant Expert',
     socialProfile: [
       {
         id: 1,
@@ -152,8 +152,8 @@ const data = [
     id: 6,
     imgSrc: Member6,
     altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    title: 'Tommy Jason',
+    designation: 'Plant Expert',
     socialProfile: [
       {
         id: 1,
