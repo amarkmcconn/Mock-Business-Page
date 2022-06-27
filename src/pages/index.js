@@ -18,12 +18,12 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="NextJS Landing Page" />
+          <SEO title="Desert Green" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
-          <Feature />
-          <CoreFeature />
+          {/* <Feature /> */}
+          {/* <CoreFeature /> */}
           <WorkFlow />
           <Package />
           <TeamSection />

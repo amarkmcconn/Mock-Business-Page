@@ -3,23 +3,26 @@ import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
 import Blob from 'assets/blob.svg'
 import BannerImg from 'assets/banner-thumb.png';
-import ShapeLeft from 'assets/shape-left.png';
-// import ShapeRight from 'assets/shape-right.png';
-import ShapeLeft1 from 'assets/shape-left1.png'
 import Blob1 from 'assets/blob1.svg'
+import HeadingImage1 from 'assets/headingimage1.png'
+import HeadingImage2 from 'assets/headingimage2.png'
+import ShapeLeft from 'assets/shape-left.png'
+import ShapeRight from 'assets/shape-right.png'
 
 export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
-          <img src="https://fontmeme.com/permalink/220624/1ad80d6e111a5dcb73d8c20dbc6cfa2b.png" alt="golden-sentry-font" border="0"/>
-          </Heading>
+          <Box sx={styles.banner.imageBox} >
+            <Image src={HeadingImage1} alt='heading' />
+          </Box>
+          <Box sx={styles.banner.imageBox} >
+            <Image src={HeadingImage2} alt='heading' />
+          </Box>
           <Text as="p" variant="heroSecondary">
           We focus on modern house plants and specialize in succulents and cacti. We strive to create a unique environment for our clients. We are driven to bring the best selection of plants and make our customers happy! 
           </Text>
-          {/* <Button variant="primary">Explore</Button> */}
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt='banner' />

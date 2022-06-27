@@ -10,28 +10,47 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Assign Expert',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We hand pick an expert based off your ideas for your home',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Draft custom plant solution for your home',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Our approach is highly collaborative. We actively engage with our clients, learning about their lifestyles and goals for their plant decoration, brainstorming together to ensure the end result is uniquely theirs. ',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Send for review to you as our client',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We want to ensure our team of experts on the same page with our clients. Client input and review is vital to the end goal.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Approval',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We want to makes sure our clients have approved everything before finalizing the custom plant project',
   },
+  {
+    id: 5,
+    title: 'Deployment',
+    text:
+      'We will confirm address information and either hand deliver or ship the plants approved in the plan.',
+  },
+  {
+    id: 6,
+    title: 'Setup',
+    text:
+      'We are more than happy to have one of experts implement and setup your plant desgn (extra cost).',
+  },
+  {
+    id: 7,
+    title: 'Follow up',
+    text:
+      'As a business, we’re committed to meeting and exceeding our clients expectations in a way that is both ethical and honest, producing a result that is of the highest quality.',
+  },
+  
 ];
 
 export default function WorkFlow() {
@@ -39,8 +58,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="WHAT'S THE FUNCTION"
-          title="Meet the feature of our product"
+          slogan="Timeline"
+          title="What our process looks like start to finish"
           isWhite={true}
         />
         <Grid sx={styles.grid}>
@@ -62,7 +81,7 @@ export default function WorkFlow() {
 
 const styles = {
   workflow: {
-    backgroundColor: 'primary',
+    backgroundColor: 'secondary',
     backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',

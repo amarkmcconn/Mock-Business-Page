@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+
 /** @jsx jsx */
+
 import { jsx, Container, Box, Grid, Text, Heading, Button, Image } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import TextFeature from 'components/text-feature';
@@ -8,31 +10,31 @@ import { IoIosPlay } from 'react-icons/io';
 
 import ServiceThumb from 'assets/service-thumb.png';
 import shapePattern from 'assets/shape-pattern1.png';
-import Suc from 'assets/suc.png';
 
-import Smart from 'assets/services/smart.svg';
-import Secure from 'assets/services/secure.svg';
+
+import Personal from 'assets/services/themes.svg';
+import Custom from 'assets/services/customize.svg';
 
 
 const data = {
   subTitle: 'our services',
-  title: 'Unique customized approach to each customers needs',
+  title: 'Unique customized approach to meet each customers needs',
   features: [
     {
       id: 1,
-      imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      imgSrc: Personal,
+      altText: 'Personalize',
+      title: 'Personalize',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'An expert matched to meet your needs and help you with all your succulent and cacti questions',
     },
     {
       id: 2,
-      imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      imgSrc: Custom,
+      altText: 'custom',
+      title: 'Plans and Customization',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Whether your budget is $15 or $10,000 we have multiple strategies, subscription plans and options to meet your needs',
     },
   ],
 };
@@ -49,7 +51,7 @@ export default function ServiceSection() {
     <section sx={{ variant: 'section.services'}}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={Suc} alt="ThumbNail"/>
+          <Image src={ServiceThumb} alt="ThumbNail"/>
           <Button
             sx={styles.videoBtn}
             onClick={handleClick}
@@ -60,7 +62,7 @@ export default function ServiceSection() {
           </span>  
           </Button>
           <Box sx={styles.shapeBox}>
-            <Image src={shapePattern} alt="shape"/>
+            {/* <Image src={shapePattern} alt="shape"/> */}
           </Box>
         </Box>
         <Box sx={styles.contentBox}>
